@@ -1,4 +1,5 @@
 import time
+import os
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
@@ -16,10 +17,13 @@ def LIGHTS(pirPin):
     print("Lights on")
     GPIO.output(led1,GPIO.HIGH)
 
-    time.sleep(4)
+    time.sleep(2)
 
     print("Light off")
     GPIO.output(led1,GPIO.LOW)
+    os.system('clear')
+    print('Checking for Change in Motion in 2 secs...')
+    time.sleep(2)
 
 
 def motion_detect():
