@@ -1,2 +1,2 @@
 # motion_detect
-![Circuit diagram](PIR SENSOR CIRCUIT.png)
+![Circuit diagram](circuit_diagram.png)
