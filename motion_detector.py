@@ -1,3 +1,5 @@
+# This a property of LSBU developed by Emeka Ugwuanyi
+
 import time
 import os
 import RPi.GPIO as GPIO
